@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://c1hroanl5om16"]
+
+[ext_resource type="Script" uid="uid://lhakicq5uhoa" path="res://DungeonManager.cs" id="1_f3sb7"]
+
+[node name="World" type="Node3D" unique_id=1359160747]
+script = ExtResource("1_f3sb7")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=280079418]
+transform = Transform3D(1, 0, 0, 0, 0.25881907, 0.9659258, 0, -0.9659258, 0.25881907, 0, 14, 0)
